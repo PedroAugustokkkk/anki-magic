@@ -50,7 +50,7 @@ st.set_page_config(
 # --- Título e Descrição ---
 st.title("🧠 Gerador de Flashcards Mágico para Anki")
 st.markdown("""
-Use a IA para criar flashcards de forma automática a partir de suas anotações, PDFs ou até mesmo imagens!
+Use a IA para criar flashcards de forma automática a partir de suas anotações, PDFs ou até mesmo imagens (este último em manutenção)!
 """)
 
 # --- Interface com Abas ---
@@ -124,3 +124,4 @@ if st.button("Gerar Flashcards ✨"):
                 st.error(f"Ocorreu um erro ao gerar os flashcards: {e}")
     else:
         st.warning("Por favor, insira um texto, PDF ou imagem para gerar os flashcards.")
+
