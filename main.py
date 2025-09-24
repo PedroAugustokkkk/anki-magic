@@ -47,7 +47,7 @@ if st.button("Gerar Flashcards ✨"):
     elif input_text:
         with st.spinner("Aguarde... A mágica está acontecendo..."):
             try:
-                model = genai.GenerativeModel('gemini-pro')
+                model = genai.GenerativeModel('gemini-1.0-pro')
                 
                 prompt = f"""
                 Aja como um especialista em criar materiais de estudo.
@@ -82,4 +82,5 @@ if st.button("Gerar Flashcards ✨"):
             except Exception as e:
                 st.error(f"Ocorreu um erro ao gerar os flashcards: {e}")
     else:
+
         st.warning("Por favor, insira um texto para gerar os flashcards.")
