@@ -2,3 +2,8 @@ streamlit
 google-generativeai
 pandas
 python-dotenv
+PyPDF2
+pytesseract
+Pillow
+
+python-dotenv
